@@ -18,6 +18,11 @@
         "zfcampus/zf-development-mode": "^3.0"
     },
     "autoload": {
+
+        "psr-0": {
+            "Album": "module/Album/src/"
+        },
+
         "psr-4": {
             "Application\\": "module/Application/src/"
         }
